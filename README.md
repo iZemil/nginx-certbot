@@ -26,7 +26,7 @@ application.
 
 5. Run the server:
 
-        docker-compose up
+        docker compose up
 
 ## Got questions?
 
