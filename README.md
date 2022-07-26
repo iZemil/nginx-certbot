@@ -22,11 +22,17 @@ application.
 
 4. Run the init script:
 
-        ./init-letsencrypt.sh
+```bash
+./init-letsencrypt.sh
+```
 
 5. Run the server:
 
-        docker compose up
+```bash
+docker compose up
+```
+
+6. Check ssl certificate: https://www.ssllabs.com/ssltest/analyze.html
 
 ## Got questions?
 
