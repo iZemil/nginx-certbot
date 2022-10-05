@@ -15,6 +15,8 @@ application.
 
 2. Clone this repository: `git clone https://github.com/wmnnd/nginx-certbot.git .`
 
+- Or add as a submodule: `git submodule add git@github.com:iZemil/ssl.git`
+
 3. Modify configuration:
 
 - Add domains and email addresses to init-letsencrypt.sh
