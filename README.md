@@ -13,9 +13,9 @@ application.
 
 1. [Install docker-compose](https://docs.docker.com/compose/install/#install-compose).
 
-2. Clone this repository: `git clone git@github.com:iZemil/ssl.git .`
+2. Clone this repository: `git clone https://github.com/iZemil/ssl.git .`
 
-- Or add as a submodule: `git submodule add git@github.com:iZemil/ssl.git`
+- Or add as a submodule: `git submodule add https://github.com/iZemil/ssl.git` (`git submodule update --init --recursive`)
 
 3. Modify configuration:
 
