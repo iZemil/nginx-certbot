@@ -1,7 +1,7 @@
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
 > This repository is accompanied by a [step-by-step guide on how to
-set up nginx and Let’s Encrypt with Docker](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71).
+> set up nginx and Let’s Encrypt with Docker](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71).
 
 `init-letsencrypt.sh` fetches and ensures the renewal of a Let’s
 Encrypt certificate for one or multiple domains in a docker-compose
@@ -15,12 +15,12 @@ application.
 
 2. Clone this repository: `git clone https://github.com/iZemil/ssl.git .`
 
-- Or add as a submodule: `git submodule add https://github.com/iZemil/ssl.git` (`git submodule update --init --recursive`)
+-   Or add as a submodule: `git submodule add https://github.com/iZemil/ssl.git` (`git submodule update --init --recursive`)
 
 3. Modify configuration:
 
-- Add domains and email addresses to init-letsencrypt.sh
-- Replace all occurrences of `9las.com` with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/app.conf
+-   Add domains and email addresses to init-letsencrypt.sh
+-   Replace all occurrences of `bllng.com` with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/app.conf
 
 4. Run the init script:
 
