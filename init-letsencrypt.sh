@@ -1,6 +1,6 @@
 #!/bin/bash
 
-domains=(bllng.com www.bllng.com)
+domains=(bllng.com www.bllng.com app.bllng.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="3zemil@gmail.com" # Adding a valid address is strongly recommended
