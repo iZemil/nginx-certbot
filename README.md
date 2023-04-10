@@ -15,7 +15,7 @@ application.
 
 2. Clone this repository: `git clone https://github.com/iZemil/ssl.git .`
 
--   Or add as a submodule: `git submodule add https://github.com/iZemil/ssl.git` (`git submodule update --init --recursive`)
+-   Or add as a submodule: `git submodule add git@github.com:iZemil/ssl.git` (`git submodule update --init --recursive`)
 
 3. Modify configuration:
 
